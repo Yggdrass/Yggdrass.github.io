@@ -10,7 +10,7 @@
     "test-unit": "jest",
     "test-e2e": "cypress open",
     "test-e2e-cli": "cypress run",
-    "format": "prettier -w src/js/index.js"
+    "format": "prettier -w src/js/index2.js"
   },
   "keywords": [],
   "author": "Noroff",
