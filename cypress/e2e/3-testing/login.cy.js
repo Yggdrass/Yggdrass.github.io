@@ -2,7 +2,7 @@ describe("login", () => {
     it("lets user login and access their profile", () => {
         cy.visit("http://127.0.0.1:5500/index.html");
         cy.wait(2000);
-        cy.get("button.btn.btn-outline-success")
+        cy.get("#registerForm button[type=button]")
           .should("be.visible")
           .contains("login")
           .click();
